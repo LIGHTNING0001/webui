@@ -1,0 +1,176 @@
+{
+  "ec92fbdce0eb6985ad189e7106db0110" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3192226d21707629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101062855,
+        "stop" : 1631101065624,
+        "duration" : 2769
+      }
+    } ]
+  },
+  "8b5ece1303745063bf120739afb1bcb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "262b46316f744d52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101076279,
+        "stop" : 1631101078146,
+        "duration" : 1867
+      }
+    } ]
+  },
+  "08e8518de2ff91cc53974a1d2489b382" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8d9c2b704a28d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101057647,
+        "stop" : 1631101062820,
+        "duration" : 5173
+      }
+    } ]
+  },
+  "8cc7f7ddd6629e2d8cc836f939b33c87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4839e0eb408e86bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101078161,
+        "stop" : 1631101079685,
+        "duration" : 1524
+      }
+    } ]
+  },
+  "d676093b11c8c88814ef96981c9fba4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55fb7cff51fd1e49",
+      "status" : "broken",
+      "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
+      "time" : {
+        "start" : 1631101081359,
+        "stop" : 1631101082567,
+        "duration" : 1208
+      }
+    } ]
+  },
+  "c090f4b7f8f2ced00f9900385b2a065c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97f00905eabffc4a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '登录失败' in ''",
+      "time" : {
+        "start" : 1631101072304,
+        "stop" : 1631101075726,
+        "duration" : 3422
+      }
+    } ]
+  },
+  "7d70cd3e69b9a6b3136d22a67f286af6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8106f4c52741b21a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101079708,
+        "stop" : 1631101081338,
+        "duration" : 1630
+      }
+    } ]
+  },
+  "6bb14f986ddf2bc70d3d4334f6926b5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3796cf54b91f9ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631101093696,
+        "stop" : 1631101098947,
+        "duration" : 5251
+      }
+    } ]
+  },
+  "b8044642216251aa13218c43efa4180f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a4f28a05240f0c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: 尺码:110,剩余:3件",
+      "time" : {
+        "start" : 1631100743008,
+        "stop" : 1631100745384,
+        "duration" : 2376
+      }
+    } ]
+  }
+}

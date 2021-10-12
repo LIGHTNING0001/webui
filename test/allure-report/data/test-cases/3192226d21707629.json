@@ -1,0 +1,117 @@
+{
+  "uid" : "3192226d21707629",
+  "name" : "test_query_customer[query-13498077658--男--0-0]",
+  "fullName" : "customerpage_test.TestCustomerPage#test_query_customer",
+  "historyId" : "ec92fbdce0eb6985ad189e7106db0110",
+  "time" : {
+    "start" : 1631101062855,
+    "stop" : 1631101065624,
+    "duration" : 2769
+  },
+  "description" : " 查询会员测试用例 ",
+  "descriptionHtml" : "<p>查询会员测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCustomerPage",
+    "time" : {
+      "start" : 1631101048314,
+      "stop" : 1631101057638,
+      "duration" : 9324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCustomerPage::0",
+    "time" : {
+      "start" : 1631101065631,
+      "stop" : 1631101065937,
+      "duration" : 306
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "会员管理"
+  }, {
+    "name" : "suite",
+    "value" : "customerpage_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomerPage"
+  }, {
+    "name" : "host",
+    "value" : "lideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16718-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "customerpage_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "childdate",
+    "value" : "''"
+  }, {
+    "name" : "childsex",
+    "value" : "'男'"
+  }, {
+    "name" : "creditcloth",
+    "value" : "0"
+  }, {
+    "name" : "creditkids",
+    "value" : "0"
+  }, {
+    "name" : "customername",
+    "value" : "''"
+  }, {
+    "name" : "customerphone",
+    "value" : "'13498077658'"
+  }, {
+    "name" : "method",
+    "value" : "'query'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20176c72377fe893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100708242,
+        "stop" : 1631100713308,
+        "duration" : 5066
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3192226d21707629.json",
+  "parameterValues" : [ "''", "'男'", "0", "0", "''", "'13498077658'", "'query'" ]
+}

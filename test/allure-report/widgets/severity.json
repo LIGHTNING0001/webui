@@ -1,0 +1,91 @@
+[ {
+  "uid" : "c8d9c2b704a28d4d",
+  "name" : "test_add_customer[add-13498077658-li-男-2021-09-07-10-10]",
+  "time" : {
+    "start" : 1631101057647,
+    "stop" : 1631101062820,
+    "duration" : 5173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3796cf54b91f9ef5",
+  "name" : "test_sell[6955203664471-110-80-2-刷卡-18091230219-2.0-无-10]",
+  "time" : {
+    "start" : 1631101093696,
+    "stop" : 1631101098947,
+    "duration" : 5251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "262b46316f744d52",
+  "name" : "test_login[adm-admin123-0000-登录失败]",
+  "time" : {
+    "start" : 1631101076279,
+    "stop" : 1631101078146,
+    "duration" : 1867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3192226d21707629",
+  "name" : "test_query_customer[query-13498077658--男--0-0]",
+  "time" : {
+    "start" : 1631101062855,
+    "stop" : 1631101065624,
+    "duration" : 2769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8106f4c52741b21a",
+  "name" : "test_login[admin--0000-登录失败]",
+  "time" : {
+    "start" : 1631101079708,
+    "stop" : 1631101081338,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a4f28a05240f0c1",
+  "name" : "test_sell[6955203664471-尺码:110,剩余:3件-80-2-刷卡-18091230219-2.0-无-10]",
+  "time" : {
+    "start" : 1631100743008,
+    "stop" : 1631100745384,
+    "duration" : 2376
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55fb7cff51fd1e49",
+  "name" : "test_login[admin-admin123-0000-admin]",
+  "time" : {
+    "start" : 1631101081359,
+    "stop" : 1631101082567,
+    "duration" : 1208
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97f00905eabffc4a",
+  "name" : "test_login[admin-admin-0000-登录失败]",
+  "time" : {
+    "start" : 1631101072304,
+    "stop" : 1631101075726,
+    "duration" : 3422
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4839e0eb408e86bd",
+  "name" : "test_login[-admin123-0000-登录失败]",
+  "time" : {
+    "start" : 1631101078161,
+    "stop" : 1631101079685,
+    "duration" : 1524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,106 @@
+{
+  "uid" : "262b46316f744d52",
+  "name" : "test_login[adm-admin123-0000-登录失败]",
+  "fullName" : "login_test.TestLogin#test_login",
+  "historyId" : "8b5ece1303745063bf120739afb1bcb4",
+  "time" : {
+    "start" : 1631101076279,
+    "stop" : 1631101078146,
+    "duration" : 1867
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1631101065946,
+      "stop" : 1631101072300,
+      "duration" : 6354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1631101082577,
+      "stop" : 1631101082837,
+      "duration" : 260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "lideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16718-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'登录失败'"
+  }, {
+    "name" : "password",
+    "value" : "'admin123'"
+  }, {
+    "name" : "username",
+    "value" : "'adm'"
+  }, {
+    "name" : "verifycode",
+    "value" : "'0000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf648382452c6f5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100727766,
+        "stop" : 1631100729153,
+        "duration" : 1387
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "262b46316f744d52.json",
+  "parameterValues" : [ "'登录失败'", "'admin123'", "'adm'", "'0000'" ]
+}

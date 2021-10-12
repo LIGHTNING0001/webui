@@ -1,0 +1,115 @@
+{
+  "uid" : "3796cf54b91f9ef5",
+  "name" : "test_sell[6955203664471-110-80-2-刷卡-18091230219-2.0-无-10]",
+  "fullName" : "sellpage_test.TestSellPage#test_sell",
+  "historyId" : "6bb14f986ddf2bc70d3d4334f6926b5e",
+  "time" : {
+    "start" : 1631101093696,
+    "stop" : 1631101098947,
+    "duration" : 5251
+  },
+  "description" : " 销售出库测试用例 ",
+  "descriptionHtml" : "<p>销售出库测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestSellPage",
+    "time" : {
+      "start" : 1631101082842,
+      "stop" : 1631101093669,
+      "duration" : 10827
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestSellPage::0",
+    "time" : {
+      "start" : 1631101098963,
+      "stop" : 1631101098963,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "销售出库"
+  }, {
+    "name" : "suite",
+    "value" : "sellpage_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSellPage"
+  }, {
+    "name" : "host",
+    "value" : "lideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "16718-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sellpage_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "barcode",
+    "value" : "'6955203664471'"
+  }, {
+    "name" : "creditratio",
+    "value" : "'2.0'"
+  }, {
+    "name" : "customerphone",
+    "value" : "'18091230219'"
+  }, {
+    "name" : "discount",
+    "value" : "'80'"
+  }, {
+    "name" : "goodnum",
+    "value" : "2"
+  }, {
+    "name" : "goodsize",
+    "value" : "'110'"
+  }, {
+    "name" : "paymethod",
+    "value" : "'刷卡'"
+  }, {
+    "name" : "ticketsum",
+    "value" : "10"
+  }, {
+    "name" : "tickettype",
+    "value" : "'无'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3796cf54b91f9ef5.json",
+  "parameterValues" : [ "'6955203664471'", "'2.0'", "'18091230219'", "'80'", "2", "'110'", "'刷卡'", "10", "'无'" ]
+}

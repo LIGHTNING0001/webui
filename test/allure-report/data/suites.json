@@ -1,0 +1,146 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "sellpage_test",
+    "children" : [ {
+      "name" : "TestSellPage",
+      "children" : [ {
+        "name" : "test_sell[6955203664471-尺码:110,剩余:3件-80-2-刷卡-18091230219-2.0-无-10]",
+        "uid" : "6a4f28a05240f0c1",
+        "parentUid" : "0f2b1905b0b2ae73406fb9c71dae52fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631100743008,
+          "stop" : 1631100745384,
+          "duration" : 2376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'6955203664471'", "'2.0'", "'18091230219'", "'80'", "2", "'尺码:110,剩余:3件'", "'刷卡'", "10", "'无'" ]
+      }, {
+        "name" : "test_sell[6955203664471-110-80-2-刷卡-18091230219-2.0-无-10]",
+        "uid" : "3796cf54b91f9ef5",
+        "parentUid" : "0f2b1905b0b2ae73406fb9c71dae52fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101093696,
+          "stop" : 1631101098947,
+          "duration" : 5251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'6955203664471'", "'2.0'", "'18091230219'", "'80'", "2", "'110'", "'刷卡'", "10", "'无'" ]
+      } ],
+      "uid" : "0f2b1905b0b2ae73406fb9c71dae52fb"
+    } ],
+    "uid" : "adf3687543df706df64ac1b386a56d30"
+  }, {
+    "name" : "customerpage_test",
+    "children" : [ {
+      "name" : "TestCustomerPage",
+      "children" : [ {
+        "name" : "test_add_customer[add-13498077658-li-男-2021-09-07-10-10]",
+        "uid" : "c8d9c2b704a28d4d",
+        "parentUid" : "7b05f298868b4504689e345f018c2593",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101057647,
+          "stop" : 1631101062820,
+          "duration" : 5173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2021-09-07'", "'男'", "10", "10", "'li'", "'13498077658'", "'add'" ]
+      }, {
+        "name" : "test_query_customer[query-13498077658--男--0-0]",
+        "uid" : "3192226d21707629",
+        "parentUid" : "7b05f298868b4504689e345f018c2593",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101062855,
+          "stop" : 1631101065624,
+          "duration" : 2769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'男'", "0", "0", "''", "'13498077658'", "'query'" ]
+      } ],
+      "uid" : "7b05f298868b4504689e345f018c2593"
+    } ],
+    "uid" : "c7fcef7a050d2b4640047ed8fb163084"
+  }, {
+    "name" : "login_test",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_login[admin-admin-0000-登录失败]",
+        "uid" : "97f00905eabffc4a",
+        "parentUid" : "1d56bd68cfbda9d7f3d43894cedc9a24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631101072304,
+          "stop" : 1631101075726,
+          "duration" : 3422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败'", "'admin'", "'admin'", "'0000'" ]
+      }, {
+        "name" : "test_login[adm-admin123-0000-登录失败]",
+        "uid" : "262b46316f744d52",
+        "parentUid" : "1d56bd68cfbda9d7f3d43894cedc9a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101076279,
+          "stop" : 1631101078146,
+          "duration" : 1867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败'", "'admin123'", "'adm'", "'0000'" ]
+      }, {
+        "name" : "test_login[-admin123-0000-登录失败]",
+        "uid" : "4839e0eb408e86bd",
+        "parentUid" : "1d56bd68cfbda9d7f3d43894cedc9a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101078161,
+          "stop" : 1631101079685,
+          "duration" : 1524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败'", "'admin123'", "''", "'0000'" ]
+      }, {
+        "name" : "test_login[admin--0000-登录失败]",
+        "uid" : "8106f4c52741b21a",
+        "parentUid" : "1d56bd68cfbda9d7f3d43894cedc9a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631101079708,
+          "stop" : 1631101081338,
+          "duration" : 1630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败'", "''", "'admin'", "'0000'" ]
+      }, {
+        "name" : "test_login[admin-admin123-0000-admin]",
+        "uid" : "55fb7cff51fd1e49",
+        "parentUid" : "1d56bd68cfbda9d7f3d43894cedc9a24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631101081359,
+          "stop" : 1631101082567,
+          "duration" : 1208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'admin'", "'admin123'", "'admin'", "'0000'" ]
+      } ],
+      "uid" : "1d56bd68cfbda9d7f3d43894cedc9a24"
+    } ],
+    "uid" : "64a9969a99e7c1785067964ca29cf488"
+  } ]
+}

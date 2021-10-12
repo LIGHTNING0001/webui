@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: 尺码:110,剩余:3件",
+      "children" : [ {
+        "name" : "test_sell[6955203664471-尺码:110,剩余:3件-80-2-刷卡-18091230219-2.0-无-10]",
+        "uid" : "6a4f28a05240f0c1",
+        "parentUid" : "384e6e9057711c77e7fc8cce82f089a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631100743008,
+          "stop" : 1631100745384,
+          "duration" : 2376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'6955203664471'", "'2.0'", "'18091230219'", "'80'", "2", "'尺码:110,剩余:3件'", "'刷卡'", "10", "'无'" ]
+      } ],
+      "uid" : "384e6e9057711c77e7fc8cce82f089a2"
+    }, {
+      "name" : "TypeError: argument of type 'NoneType' is not iterable",
+      "children" : [ {
+        "name" : "test_login[admin-admin123-0000-admin]",
+        "uid" : "55fb7cff51fd1e49",
+        "parentUid" : "e9db08476fd0716ac0709ac5baab340a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631101081359,
+          "stop" : 1631101082567,
+          "duration" : 1208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'admin'", "'admin123'", "'admin'", "'0000'" ]
+      } ],
+      "uid" : "e9db08476fd0716ac0709ac5baab340a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '登录失败' in ''",
+      "children" : [ {
+        "name" : "test_login[admin-admin-0000-登录失败]",
+        "uid" : "97f00905eabffc4a",
+        "parentUid" : "a55176cc3fad9ec8828010347d79c52e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631101072304,
+          "stop" : 1631101075726,
+          "duration" : 3422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败'", "'admin'", "'admin'", "'0000'" ]
+      } ],
+      "uid" : "a55176cc3fad9ec8828010347d79c52e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
